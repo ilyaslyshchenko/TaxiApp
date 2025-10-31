@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Такси Макинск</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+  <div id="app">
+    <h1>🚖 Такси Макинск</h1>
+
+    <div id="main-screen">
+      <button id="call-taxi">Вызвать такси</button>
+    </div>
+
+    <div id="form-screen" class="hidden">
+      <h2>Создать заказ</h2>
+      <input id="from" type="text" placeholder="Откуда" />
+      <input id="to" type="text" placeholder="Куда" />
+      <button id="confirm">Подтвердить заказ</button>
+    </div>
+
+    <div id="done-screen" class="hidden">
+      <h2>✅ Заказ отправлен!</h2>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
