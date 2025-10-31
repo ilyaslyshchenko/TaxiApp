@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Клиент | Такси Макинск</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>🚖 Сделать заказ</h2>
+
+    <input type="text" id="from" placeholder="Откуда" class="input">
+    <input type="text" id="to" placeholder="Куда" class="input">
+    <button onclick="sendOrder()" class="btn client">📩 Заказать</button>
+
+    <p id="status"></p>
+
+    <a href="index.html" class="back">← Назад</a>
+  </div>
+
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
